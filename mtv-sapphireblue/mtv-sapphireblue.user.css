@@ -29,7 +29,7 @@
 
 
   * {
-  font-family: Roboto;
+  font-family: Roboto !important;
   }
   a:active,
   a:focus,
@@ -46,13 +46,13 @@
 
   pre, xmp, plaintext, listing {
   display: block;
-  font-family: monospace;
+  font-family: monospace !important;
   white-space: pre;
   margin: 1em 0px;
   }
 
   tt, code, kbd, samp {
-  font-family: monospace;
+  font-family: monospace !important;
   }
 
   #content>.thin,
@@ -88,19 +88,19 @@
       vertical-align: middle
   }
   @font-face {
-      font-family: 'Open Sans';
+      font-family: 'Open Sans' !important;
       font-style: normal;
       font-weight: 400;
       src: local('Open Sans'), local(OpenSans), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format("truetype")
   }
   @font-face {
-      font-family: 'Open Sans';
+      font-family: 'Open Sans' !important;
       font-style: normal;
       font-weight: 600;
       src: local('Open Sans Semibold'), local(OpenSans-Semibold), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf) format("truetype");
   }
   @font-face {
-      font-family: Raleway;
+      font-family: Raleway !important;
       font-style: normal;
       font-weight: 400;
       src: local(Raleway), local(Raleway-Regular), url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format("truetype");
@@ -112,7 +112,7 @@
       margin: 0 8px;
       box-sizing: border-box;
       line-height: 1.6;
-      font-family: 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif;
+      font-family: 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif !important;
       font-size: 12px;
       color: #c2c2c2;
       background-color: #1d1c1d
@@ -126,7 +126,7 @@
       margin: 8px 0;
       max-width: 100%;
       font-weight: 400;
-      font-family: Relaway, 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif;
+      font-family: Relaway, 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif !important;
       color: #f4f4f4
   }
   .tooltipster-default .tooltipster-content,
@@ -134,7 +134,7 @@
   input,
   select,
   textarea {
-      font-family: 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif
+      font-family: 'Open Sans', Helvetica, Arial, Tahoma, "Microsoft Yahei", sans-serif !important;
   }
   h1 a,
   h2 a,
@@ -599,7 +599,7 @@
       width: 50px;
       line-height: 51px;
       content: "\f0c9";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       font-size: 18px;
       text-align: center;
   }
@@ -1324,7 +1324,7 @@
 
   #nav_collages a:before {
       content: "\f00a";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1352,7 +1352,7 @@
 
   #nav_index a:before {
       content: "\f015";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1366,7 +1366,7 @@
 
   #nav_irc a:before {
       content: "\f0e6";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1380,7 +1380,7 @@
 
   #nav_market a:before {
       content: "\f07a";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1394,7 +1394,7 @@
 
   #nav_requests a:before {
       content: "\f00e";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1408,7 +1408,7 @@
 
   #nav_series a:before {
       content: "\f26c";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1422,7 +1422,7 @@
 
   #nav_top10 a:before {
       content: "\f161";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1436,7 +1436,7 @@
 
   #nav_torrents a:before {
       content: "\f15b";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1450,7 +1450,7 @@
 
   #nav_wiki a:before {
       content: "\f02d";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1464,7 +1464,7 @@
   }
 
   * {
-      font-family: 'Roboto';
+      font-family: 'Roboto' !important;
   }
 
   .cats_movies {
@@ -1516,7 +1516,7 @@
 
   a.username:before {
       content: "\f2bd";
-      font-family: 'Fontawesome';
+      font-family: 'Fontawesome' !important;
       left: 0px;
       padding-right: 0.5em;
       position: relative;
@@ -1551,7 +1551,7 @@
   }
 
   div.submit.ft_submit input {
-      font-family: Roboto;
+      font-family: Roboto !important;
       font-size: 11px;
       height: 25px;
       text-transform: uppercase;
@@ -1688,7 +1688,7 @@
 
   .mtv_download:before {
       content: "";
-      font-family: "Material Icons";
+      font-family: "Material Icons" !important;
       font-size: 20px;
   }
 
@@ -1723,21 +1723,21 @@
       content: "";
       font-size: 14px;
       color: #94ff00;
-      font-family: "Fontawesome";
+      font-family: "Fontawesome" !important;
   }
 
   span.flag_internal:after {
       content: "";
       font-size: 14px;
       color: #ff3838;
-      font-family: "Fontawesome";
+      font-family: "Fontawesome" !important;
   }
 
   span.flag_fast:after {
       content: "";
       font-size: 14px;
       color: #ffe13d;
-      font-family: "Fontawesome";
+      font-family: "Fontawesome" !important;
   }
 
   span.flag_internal {
@@ -1786,7 +1786,7 @@
   .head a.brackets:nth-child(1):after {
       content: '';
       display: inline-block;
-      font-family: FontAwesome;
+      font-family: "FontAwesome" !important;
       font-size: 10px;
       line-height: 42px;
   }
