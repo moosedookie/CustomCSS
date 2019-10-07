@@ -1,0 +1,669 @@
+/* FONT STYLE */
+@import url(https://fonts.googleapis.com/css?family=Karla:400,600,700);
+body {
+    font-family: 'Karla', sans-serif;
+}
+h1, h2, h3 {
+   font-family: 'Karla', sans-serif; text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+h2, h3 {
+   letter-spacing: .3px;
+}
+td {
+   color: rgba(255, 255, 255, 0.87);
+}
+div.content-primary p {
+   color: rgba(255, 255, 255, 0.87);
+}
+.emby-tab-button {
+   font-family: 'Karla' !important;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.emby-tab-button:active {
+   font-weight: 700 !important;
+   color: #cc3333 !important;
+}
+.emby-tab-button-active {
+   font-weight: 700 !important;
+   color: #cc3333 !important;
+}
+.emby-button {
+   text-transform: uppercase;
+}
+.button-link {
+   text-transform: uppercase;
+   color: #cc3333 !important;
+}
+.readOnlyContent {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* ADMIN DASHBOARD */
+span.navMenuOptionText {
+   white-space: pre-wrap;
+   text-align: justify;
+}
+.navMenuOption-selected {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+a.navMenuOption.emby-button.navMenuOption-selected {
+   background: #cc3333 !important;
+}
+.navMenuOptionText {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.navMenuOption:hover {
+   background: #cc3333 !important;
+}
+.mainDrawer {
+   background: #333333 !important;
+}
+.drawer-open {
+   -webkit-box-shadow: 2px 0 12px rgba(0,0,0,.9) !important;
+   box-shadow: 2px 0 12px rgba(0,0,0,.9) !important;
+}
+.checkboxLabel {
+   color: rgba(255, 255, 255, 0.87) !important;
+   text-transform: uppercase;
+}
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .textareaLabelUnfocused {
+   color: rgba(255, 255, 255, 0.87) !important;
+   text-transform: uppercase;
+}
+.checkboxOutline {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.textareaLabel {
+   color: rgba(255, 255, 255, 0.87) !important;
+   text-transform: uppercase;
+}
+.selectLabel {
+   color: rgba(255, 255, 255, 0.87) !important;
+   text-transform: uppercase;
+}
+.fieldDescription {
+   color: rgba(255, 255, 255, 0.87) !important;
+   font-style: oblique;
+}
+.paperList, .visualCardBox {
+   background-color: rgba(0,0,0,.87) !important;
+   border: 2px solid #b3b3b3 !important;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-content-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid #b3b3b3 !important;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-items-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid #b3b3b3 !important;
+}
+.sessionCardButton {
+   background-color: #cc3333 !important;
+}
+.sessionCardFooter {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.sessionAppInfo, .sessionNowPlayingInfo {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.listItemAside {
+   background-color: #cc3333 !important;
+}
+.listItemBodyText {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.listItem .secondary {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.actionSheetMenuItem:hover {
+   background-color: #cc3333 !important;
+}
+.dialog-content-centered {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.formDialogFooter:not(.formDialogFooter-clear) {
+   background-color: #161616 !important;
+}
+.formDialogFooterItem-autosize {
+   padding-left: 1em !important;
+   padding-right: 1em !important;
+}
+.emby-input:focus, .emby-textarea:focus {
+   border-color: #cc3333 !important;
+   box-shadow: 0 0 10px 0 rgba(204,51,51,1);
+}
+p#appVersionNumber {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#pUpdateNow p {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#pnewVersionNumber {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+p#pUpToDate.flex.align-items-center {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#pUpToDate i.md-icon {
+   background-color: #cc3333 !important;
+   border-color: #cc3333 !important;
+}
+p#ports {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+p.localUrl {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#devicesUploadPage p {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#dlnaProfilePage p {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#dlnaProfilePage ul {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#fldDirectPlayAudioCodec label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#popupEditDirectPlayProfile label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.tabContent.tabTranscodingBasics label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#transcodingProfilePopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#codecProfilePopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#responseProfilePopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#identificationHeaderPopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#subtitleProfilePopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#xmlAttributePopup label {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground, .emby-select-withcolor:focus {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background-color: #cc3333 !important;
+   border-color: #cc3333 !important;
+}
+.listItemIcon:not(.listItemIcon-transparent) {
+   background-color: #cc3333 !important;
+}
+.formDialogHeader:not(.formDialogHeader-clear) {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background-color: #cc3333 !important;
+}
+.mdl-switch__input:checked+.mdl-switch__label+.mdl-switch__trackContainer>.mdl-switch__thumb {
+   background: #cc3333 !important;
+}
+.mdl-switch__track {
+   background: #555 !important;
+}
+#collapsiblePendingInstallations p {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#pendingInstallations {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.statCard .statCard-content {
+   background-color: #161616 !important;
+}
+div[data-role=controlgroup] a.ui-btn-active.emby-button {
+   background: #cc3333 !important;
+}
+div.jobItems div.listItem.listItem-border {
+   display: -webkit-box;
+}
+table.tblApiKeys.detailTable {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   text-transform: uppercase;
+}
+
+/* METADATA MANAGER */
+div.jstree-wholerow.jstree-wholerow-hovered {
+   background: #cc3333 !important;
+}
+div.jstree-wholerow.jstree-wholerow-clicked {
+   background: #cc3333 !important;
+}
+.button-accent-flat {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* HEADER STYLE */
+.skinHeader-withBackground {
+   background-color: rgba(0,0,0,.90) !important;
+   border-bottom: transparent !important;
+   -webkit-box-shadow: 0 0.25em 0.29em 0 rgba(0,0,0,.90) !important;
+   box-shadow: 0 0.25em 0.29em 0 rgba(0,0,0,.90) !important;
+}
+.skinHeader.semiTransparent {
+   background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.9)),to(rgba(0,0,0,0.3))) !important;
+   background: -webkit-linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   background: -o-linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.3)) !important;
+   border-bottom: none !important;
+}
+.backgroundContainer.withBackdrop {
+   background-color: rgba(0,0,0,.7) !important;
+}
+
+/* BACKGROUND STYLE */
+.backgroundContainer, .dialog, html {
+   background-color: #000 !important;
+}
+.cardContent-shadow, .defaultCardBackground0 {
+   background-color: transparent !important;
+}
+.cardFooter {
+   background-color: #161616 !important;
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.cardText-secondary {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.collapseContent {
+   background-color: #333333 !important;
+}
+.nowPlayingBar {
+   background-color: #000 !important;
+}
+.actionSheetContent {
+   border: 1px solid rgba(255, 255, 255, 0.87);
+}
+.appfooter {
+   background: #000 !important;
+   border-top: 1px solid rgba(255,255,255,.1) !important;
+}
+.dialog-small {
+   border: 2px solid #555 !important;
+}
+.selectionCommandsPanel {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+}
+div.dialog {
+   padding: 0 .2em .2em 0;
+}
+
+/* UI BUTTON STYLE */
+.emby-select-withcolor {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: transparent !important;
+   border: .07em solid #c4c4c4 !important;
+}
+.emby-select-withcolor:focus {
+   border-color: #c4c4c4 !important;
+}
+.fab, .raised {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   border: 1px solid #cc3333 !important;
+   transition: 0.3s;
+}
+.fab:hover, .raised:hover {
+   background: #8f2424 !important;
+   border-color: #8f2424 !important;
+}
+.emby-input-iconbutton {
+   background: #cc3333 !important;
+   transition: 0.3s;
+}
+.emby-input-iconbutton:hover {
+   background: #8f2424 !important;
+   border-color: #8f2424 !important;
+}
+.scrollbuttoncontainer-left {
+   background-color: #cc3333 !important;
+}
+.scrollbuttoncontainer-right {
+   background-color: #cc3333 !important;
+}
+i.md-icon {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+i.md-icon.playstatebutton-icon-played {
+   color: #000 !important;
+   background-color: #cc3333 !important;
+   transition: 0.3s;
+}
+i.md-icon.playstatebutton-icon-played:hover {
+   background-color: #8f2424 !important;
+}
+button.listItemButton.paper-icon-button-light.emby-button {
+   background-color: #cc3333 !important;
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button:hover {
+   background-color: #8f2424 !important;
+}
+i.md-icon.ratingbutton-icon-withrating {
+   color: #000 !important;
+   background-color: #cc3333 !important;
+   transition: 0.3s;
+}
+i.md-icon.ratingbutton-icon-withrating:hover {
+   background-color: #8f2424 !important;
+}
+button.listItemButton.paper-icon-button-light.emby-button.ratingbutton-withrating {
+   background-color: #cc3333 !important;
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button.ratingbutton-withrating:hover {
+   background-color: #8f2424 !important;
+}
+a.btnDeleteProfile.emby-button {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background-color: #cc3333 !important;
+}
+a.btnDeleteProfile.emby-button:hover {
+   background: #8f2424 !important;
+   border-color: #8f2424 !important;
+}
+.emby-slider-background-inner {
+   background: rgba(255,255,255,.1) !important;
+}
+#popupAddTrigger button {
+   font-size: 1em;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 600;
+   line-height: 1.35;
+   letter-spacing: .5px;
+   margin: 0 .29em;
+   padding: .86em 1em;
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   border: 1px solid #cc3333 !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+#popupAddTrigger button:hover {
+   background: #8f2424 !important;
+   border-color: #8f2424 !important;
+}
+
+/* PROGRESS BAR - CHROME */
+.emby-slider::-webkit-slider-thumb, .sliderBubble {
+   background: #cc3333 !important;
+}
+.emby-slider-background-lower {
+   background: linear-gradient(to right, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+   background: -webkit-linear-gradient(left, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+}
+progress::-webkit-progress-value {
+   background: linear-gradient(to right, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+   background: -webkit-linear-gradient(left, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+}
+
+/* PROGRESS BAR - FIREFOX */
+.emby-slider::-moz-range-thumb, .mdl-slider:active::-moz-range-thumb {
+   background: #cc3333 !important;
+}
+.emby-slider::-moz-range-progress {
+   background: linear-gradient(to right, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+   background: -moz-linear-gradient(left, #d3a934 0%, #d3a934 50%, #8f2424 100%) !important;
+}
+progress::-moz-progress-bar {
+   background: linear-gradient(to right, #d3a934 0%,#d3a934 50%,#8f2424 100%) !important;
+   background: -moz-linear-gradient(left, #d3a934 0%, #d3a934 50%, #8f2424 100%) !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+   width: 6px !important;
+}
+::-webkit-scrollbar-track {
+   background: #000 !important;
+}
+::-webkit-scrollbar-thumb {
+   background: #555 !important;
+   border-radius: 6px !important;
+}
+::-webkit-scrollbar-thumb:hover {
+   background: #888 !important;
+}
+
+/* RIBBON - COUNT/PLAYED INDICATOR */
+div.cardIndicators {
+   right: -1.5em;
+}
+div.cardIndicators div.playedIndicator.indicator {
+   margin-right: 2.2em;
+   background: #cc3333;
+}
+div.cardIndicators div.playedIndicator.indicator .indicatorIcon {
+   color: #000 !important;
+}
+div.countIndicator {
+   width: 75px;
+   transform: rotate(45deg);
+   border-radius: 0%;
+   background: #cc3333;
+   border: 1px solid rgba(255, 255, 255, 0.87);
+}
+div.listItem-content div.playedIndicator i {
+   transform: rotate(-45deg);
+}
+.listItemIndicators div.playedIndicator {
+   background: #cc3333 !important;
+}
+.listItemIndicators div.playedIndicator .indicatorIcon {
+   color: #000 !important;
+}
+
+/* RIBBON - FOLDER INDICATOR */
+div.videoIndicator {
+   transform: rotate(-45deg);
+   width: 75px;
+   left: -21px;
+   border-radius: 0%;
+   background: rgba(30,30,30,.7);
+   border-style: solid;
+   border-width: 1px;
+}
+div.videoIndicator i {
+   transform: rotate(45deg);
+}
+
+/* RIBBON - EPISODE VERTICAL LIST */
+#childrenContent .listItem[data-action=none] {
+   padding: 0 0 30px 0;
+}
+#childrenContent .listItemIndicators {
+   top: 4px;
+   left: -21px;
+}
+#childrenContent .listItemImage-large {
+   width: 400px;
+   height: 225px;
+}
+#childrenContent div.listItem-content .playedIndicator {
+   width: 75px;
+   height: 25px;
+   border-radius: 0%;
+   transform: rotate(-45deg);
+   background: #cc3333;
+   border: 1px solid rgba(255, 255, 255, 0.87);
+}
+#childrenContent div.listItem-content .indicatorIcon {
+   transform: rotate(45deg);
+   color: #000 !important;
+}
+
+/* PROGRESS RINGS */
+div.progressring {
+   right: 30px;
+   color: #cc3333 !important;
+}
+#divRunningTasks span {
+   color: #cc3333 !important;
+}
+
+/* EMBY BRANDING */
+/*
+.pageTitleWithDefaultLogo {
+   display: none;
+}
+.btnHeaderPremiere {
+   display: none;
+}
+*/
+
+/* CAST & CREW THUMBNAILS */
+/* #castContent .card.portraitCard.personCard.card-hoverable.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 80% !important;
+}
+#castContent .card.portraitCard.personCard.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 80% !important;
+}
+#castContent .card.overflowPortraitCard.personCard.card-nofocustransform.card-withuserdata {
+   width: 3.7cm;
+   font-size: 80% !important;
+}
+#castContent .cardContent-button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy {
+   background-size: cover !important;
+   border-radius: 1.7cm;
+}
+#castContent .cardScalable {
+   width: 3.1cm !important;
+   height: 3.1cm !important;
+   border-radius: 1.7cm;
+}
+#castContent .cardOverlayContainer.itemAction {
+   border-radius: 1.7cm;
+}
+#castContent .cardOverlayButton-br {
+   bottom: 4%;
+   right: 15%;
+   width: 70%;
+}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
+   width: 50%;
+   vertical-align: middle;
+}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.emby-button {
+   width: 50%;
+   vertical-align: middle;
+} */
+
+/* LOGIN FORM */
+#loginPage .readOnlyContent, #loginPage form {
+   max-width: 22em;
+}
+/* #loginPage h1 {
+   display: none;
+} */
+#loginPage .padded-left.padded-right.padded-bottom-page {
+   margin-top: 50px;
+}
+/* #loginPage .raised.cancel.block.btnManual.emby-button {
+   display: none;
+} */
+/* #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+   display: none;
+} */
+
+/* PLAYBACK REPORTING PLUGIN */
+table#activity_report_table thead {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   text-transform: uppercase;
+}
+tbody#activity_report_results.resultBody {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.detailTableBodyRow-shaded:nth-child(even) {
+   background: #161616 !important;
+}
+#resource_usage_chart_canvas {
+   background: #161616 !important;
+}
+#user_usage_report_table thead {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   text-transform: uppercase;
+}
+tbody#user_report_results.resultBody {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+.chartjs-render-monitor {
+   background: #161616 !important;
+}
+span#user_report_user_name {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+span#filter_check_list {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#TvShows_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#TvShows_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#User_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#User_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#ItemType_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#ItemType_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#PlayMethod_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#PlayMethod_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#ClientName_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#ClientName_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#DeviceName_breakdown_count_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#DeviceName_breakdown_time_chart_legend {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#query_result_message {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+div#table_area_div {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+table#custom_query_table {
+   color: rgba(255, 255, 255, 0.87) !important;
+}
+#user_usage_report_results button {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   border: 1px solid #cc3333 !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+#user_usage_report_results button:hover {
+   background: #8f2424 !important;
+   border-color: #8f2424 !important;
+}

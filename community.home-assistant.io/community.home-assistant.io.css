@@ -1,0 +1,45 @@
+@-moz-document domain("community.home-assistant.io") {
+  .b-header {
+    background-color: #6d00ff !important;
+  }
+
+  .b-header .title a {
+    color: #fff !important;
+  }
+
+  .b-header .title:visited {
+    color: #fff !important;
+  }
+
+  .b-header .nav-pills > li > a {
+    color: #fffefe !important;
+  }
+
+  .b-header .nav-pills > li > a:hover {
+    color: #fff !important;
+    background-color: #b500ecd9 !important
+  }
+
+  .b-header .nav-pills > li > a.active > a,
+  .b-header .nav-pills > li > a > a.active {
+    color: #ff00ef !important;
+    background-color: #ff00d4 !important
+  }
+
+  .b-header .panel > ul.icons a,
+  .b-header .panel > ul.icons [class^="fa fa-"] {
+    color: #fff !important
+  }
+
+  span.moderator:after {
+    content: "Moderator";
+    background-color: green !important;
+    color: #fff !important
+  }
+
+  span.admin:after {
+    content: "Admin";
+    background-color: #03A9F4 !important;
+    color: #fff !important
+  }
+  }
