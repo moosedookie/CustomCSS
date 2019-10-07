@@ -1,3 +1,16 @@
+/* ==UserStyle==
+@name         unRAID Dark Theme
+@version      1.2.2
+@description  Change homeassistant.io to Dark Theme
+@namespace    https://github.com/moosedookie
+@author       moosedookie
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/moosedookie/CustomCSS/blob/master/unRAID
+@supportURL   https://github.com/moosedookie/CustomCSS/issues
+@updateURL    https://raw.githubusercontent.com/moosedookie/CustomCSS/master/unRAID/unraid.user.css
+@preprocessor default
+==/UserStyle== */
+
 @-moz-document domain("moose-server.local"), domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
   :root {
     --main-color: #19298f;
