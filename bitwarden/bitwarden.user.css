@@ -11,7 +11,7 @@
 @preprocessor default
 ==/UserStyle== */
 
--moz-document url-prefix("https://bitwarden.moosedookie.me") {
+@-moz-document domain("bitwarden.moosedookie.me") {
   /* General */
   body, body.layout_frontend {
       color: #fff;
