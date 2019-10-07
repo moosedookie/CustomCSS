@@ -11,10 +11,11 @@
 @preprocessor default
 ==/UserStyle== */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @-moz-document domain("morethan.tv") {
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
-  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-  @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 
   @media (max-width:1280px) {
   #userinfo ul  {
@@ -538,7 +539,6 @@
       display: inline;
       top: 26px;
       right: 8px;
-      margin-left:
   }
   #menu>ul>#nav_staff>a {
       padding: 0;
