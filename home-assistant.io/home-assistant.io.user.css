@@ -49,7 +49,7 @@
 	.menu > LI > A:hover, .menu > LI > A:focus
 	{
 		background: #038FC7;
-		box-shadow: inset 0px 5px #FFF;
+		box-shadow: inset 0px 5px rgba(0,0,0,0.25);
 		color: #FFF;
 		padding-top: 40px;
 		padding-bottom: 24px;
