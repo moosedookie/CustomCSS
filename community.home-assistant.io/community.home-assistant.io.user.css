@@ -1,3 +1,16 @@
+/* ==UserStyle==
+@name         community.homeassistant.io Dark Theme
+@version      1.0.0
+@description  Change community.homeassistant.io to Dark Theme
+@namespace    https://github.com/moosedookie
+@author       moosedookie
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/moosedookie/CustomCSS/tree/master/community.home-assistant.io
+@supportURL   https://github.com/moosedookie/CustomCSS/issues
+@updateURL    https://raw.githubusercontent.com/moosedookie/CustomCSS/master/community.home-assistant.io/community.home-assistant.io.css
+@preprocessor default
+==/UserStyle== */
+
 @-moz-document domain("community.home-assistant.io") {
   .b-header {
     background-color: #6d00ff !important;

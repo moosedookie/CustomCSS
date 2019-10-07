@@ -1,3 +1,16 @@
+/* ==UserStyle==
+@name         MTV Sapphire Blue Theme
+@version      1.5.1
+@description  Change MTV to Sapphire Blue Theme
+@namespace    https://github.com/moosedookie
+@author       moosedookie
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/moosedookie/CustomCSS/tree/master/mtv-sapphireblue
+@supportURL   https://github.com/moosedookie/CustomCSS/issues
+@updateURL    https://raw.githubusercontent.com/moosedookie/CustomCSS/master/mtv-sapphireblue/mtv-sapphireblue.user.css
+@preprocessor default
+==/UserStyle== */
+
 @-moz-document domain("morethan.tv") {
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
   @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
@@ -1707,7 +1720,7 @@
       }
 
       span.flag_sticky:after {
-      content: "";
+      content: "";
       font-size: 14px;
       color: #94ff00;
       font-family: "Fontawesome";
