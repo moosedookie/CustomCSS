@@ -331,4 +331,17 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		background: var(--main-color);
 		border-bottom: var(--unraid-orange) 1px solid;
 	}
+	div.notice {
+		background-color: var(--main-color);
+		border-top: 2px solid var(--unraid-orange);
+		border-bottom: 2px solid var(--unraid-orange);
+	}
+	.sweet-alert {
+		background-color: var(--dark-grey-background);
+		border: 1px solid var(--unraid-orange);
+	}
+	.sweet-alert h2,
+	.sweet-alert p {
+		color: var(--stopped-color);
+	}
 }
