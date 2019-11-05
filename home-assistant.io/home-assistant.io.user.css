@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         homeassistant.io Dark Theme
-@version      1.2.2
+@version      1.2.3
 @description  Change homeassistant.io to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -10,6 +10,16 @@
 @updateURL    https://moosedookie.github.io/CustomCSS/home-assistant.io/home-assistant.io.user.css
 @preprocessor default
 ==/UserStyle== */
+
+/*       __  ___                          */
+/*      /  |/  /___  ____  ________       */
+/*     / /|_/ / __ \/ __ \/ ___/ _ \      */
+/*    / /  / / /_/ / /_/ (__  )  __/      */
+/*   /_/  /_/\____/\____/____/\___/  _    */
+/*           / __ \____  ____  / /__(_)__ */
+/*          / / / / __ \/ __ \/ //_/ / _ \*/
+/*         / /_/ / /_/ / /_/ / ,< / /  __/*/
+/*        /_____/\____/\____/_/|_/_/\___/ */
 
 @-moz-document domain("home-assistant.io") {
 	BODY, HTML

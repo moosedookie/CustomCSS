@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Deluge Dark Theme
-@version      1.0.1
+@version      1.0.2
 @description  Change Deluge to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -10,6 +10,16 @@
 @updateURL    https://moosedookie.github.io/CustomCSS/deluge-dark/deluge.user.css
 @preprocessor default
 ==/UserStyle== */
+
+/*       __  ___                          */
+/*      /  |/  /___  ____  ________       */
+/*     / /|_/ / __ \/ __ \/ ___/ _ \      */
+/*    / /  / / /_/ / /_/ (__  )  __/      */
+/*   /_/  /_/\____/\____/____/\___/  _    */
+/*           / __ \____  ____  / /__(_)__ */
+/*          / / / / __ \/ __ \/ //_/ / _ \*/
+/*         / /_/ / /_/ / /_/ / ,< / /  __/*/
+/*        /_____/\____/\____/_/|_/_/\___/ */
 
 @-moz-document url-prefix("https://apps.moosedookie.me/deluge") {
   /*!
