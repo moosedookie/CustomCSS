@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name         GitHub Icon Color
+@version      1.0.0
+@description  Change GitHub icon color to your choosing
+@namespace    https://github.com/moosedookie
+@author       moosedookie
+@license      CC-BY-SA-4.0
+@homepageURL  https://github.com/moosedookie/CustomCSS/tree/master/github-icon-color
+@supportURL   https://github.com/moosedookie/CustomCSS/issues
+@updateURL    https://moosedookie.github.io/CustomCSS/github-icon-color/github-icon-color.user.css
+@advanced color icon		"Icon Color"		#b101ff
+@preprocessor uso
+==/UserStyle== */
+
+
+/*       __  ___                          */
+/*      /  |/  /___  ____  ________       */
+/*     / /|_/ / __ \/ __ \/ ___/ _ \      */
+/*    / /  / / /_/ / /_/ (__  )  __/      */
+/*   /_/  /_/\____/\____/____/\___/  _    */
+/*           / __ \____  ____  / /__(_)__ */
+/*          / / / / __ \/ __ \/ //_/ / _ \*/
+/*         / /_/ / /_/ / /_/ / ,< / /  __/*/
+/*        /_____/\____/\____/_/|_/_/\___/ */
+
+
+@-moz-document regexp("^https?://((gist|guides|help|raw|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+	svg.octicon.octicon-mark-github.v-align-middle {
+		color: /*[[icon]]*/;
+	}
+}
