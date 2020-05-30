@@ -276,9 +276,6 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	.unpinned {
 		color: var(--white-font);
 	}
-	.ca_tooltip img {
-		filter: grayscale(1);
-	}
 	.ca_category {
 		color: var(--main-color);
 	}
