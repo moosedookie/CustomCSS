@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.2.7
+@version      1.2.8
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -62,6 +62,9 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		border-right: 1px solid var(--main-color);
 		border-radius: 0px;
 	}
+	#nav-block #nav-item.active:after {
+		background-color: var(--unraid-orange);
+	}
 	#nav-block #nav-item {
 		border-right: 1px solid var(--main-color);
 	}
@@ -109,7 +112,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 	.switch-button-background {
 		border-radius: 10px;
-		background: rgba(0, 0, 0, 0.38);
+		background: rgba(239, 14, 14, 0.46);
 		border: 1px solid transparent;
 	}
 	.switch-button-button {
@@ -131,7 +134,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--highlight-color);
 	}
 	.blue-text {
-		color: #808080;
+		color: var(--highlight-color);
 	}
 	.back_to_top {
 		color: var(--main-color);
@@ -231,10 +234,10 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--white-font);
 	}
 	.switch-button-background.checked {
-		background: var(--main-color-dark) !important;
+		background: var(--main-color) !important;
 	}
 	.switch-button-background.checked {
-		border: 1px solid var(--main-color-dark);
+		border: 1px solid var(--main-color);
 	}
 	.searchSubmit {
 		border-radius: 0;
@@ -254,12 +257,11 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		opacity: 1;
 	}
 	#searchFilter button {
-		background: var(--highlight-color) !important;
-		border-bottom: 1px solid var(--highlight-color);
-		box-shadow: none;
+		background: var(--main-color-dark) !important;
+		border-bottom: 1px solid var(--unraid-orange);
 	}
 	#searchFilter button:hover {
-		background: var(--main-color-dark) !important;
+		background: var(--highlight-color) !important;
 	}
 	.ca_template_icon {
 		border-radius: 0;
