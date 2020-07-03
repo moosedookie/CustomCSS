@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.3.3
+@version      1.3.4
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -222,6 +222,12 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 	table {
 		margin-top: -22px;
+	}
+	#branch > table {
+		margin-top: 0px;
+	}
+	#branch > table > tbody > tr > td > a {
+		color: var(--white-font);
 	}
 	table.share_status.fixed {
 		border: 1px solid var(--main-color);
