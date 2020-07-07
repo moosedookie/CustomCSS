@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.3.6
+@version      1.3.7
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -10,7 +10,6 @@
 @updateURL    https://moosedookie.github.io/CustomCSS/unRAID/unraid.user.css
 @preprocessor default
 ==/UserStyle== */
-
 /*       __  ___                          */
 /*      /  |/  /___  ____  ________       */
 /*     / /|_/ / __ \/ __ \/ ___/ _ \      */
@@ -20,7 +19,6 @@
 /*          / / / / __ \/ __ \/ //_/ / _ \*/
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
-
 @-moz-document domain("moose-server.local"),
 domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	:root {
@@ -30,6 +28,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		--stopped-color: #d32f2f;
 		--started-color: #388e3c;
 		--unraid-orange: #ff8400;
+		--unraid-orange2: #f15a2c;
 		--white-font: #ffffff;
 		--dark-grey-background: #1c1b1b;
 	}
@@ -91,7 +90,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 
 	#header .text-left {
-		border-right: solid medium var(--highlight-color);
+		border-right: solid medium var(--unraid-orange2);
 	}
 	#template {
 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
@@ -137,7 +136,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--highlight-color);
 	}
 	.back_to_top {
-		color: var(--unraid-orange);
+		color: var(--unraid-orange2);
 	}
 	select {
 		border-radius: 0;
@@ -361,12 +360,13 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 	.swal-modal {
 		background-color: var(--main-color-dark);
-	  border: solid 1px var(--unraid-orange);
+		border: solid 1px var(--unraid-orange);
 	}
 	.swal-icon {
 		border-color: var(--unraid-orange)
 	}
-	.swal-icon--info:after, .swal-icon--info:before {
+	.swal-icon--info:after,
+	.swal-icon--info:before {
 		background-color: var(--unraid-orange);
 	}
 	.swal-title {
@@ -378,19 +378,21 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	.swal-icon--warning {
 		border-color: #ff0000 !important;
 	}
-	.swal-icon--warning__body, .swal-icon--warning__dot {
+	.swal-icon--warning__body,
+	.swal-icon--warning__dot {
 		background-color: #ff0000 !important;
 		left: 50%;
 	}
 	.sa-icon.sa-warning {
 		border-color: #ff0000 !important;
 	}
-	.sa-icon.sa-warning .sa-body, .sa-icon.sa-warning .sa-dot {
+	.sa-icon.sa-warning .sa-body,
+	.sa-icon.sa-warning .sa-dot {
 		background-color: #ff0000 !important;
 	}
 	.label-tab > .ct-name > div {
 		border-color: var(--unraid-orange);
-  }
+	}
 	.tablesorter .fa {
 		border-color: var(--unraid-orange);
 	}
@@ -417,10 +419,13 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	#dropdown-nav-power {
 		left: 1740px !important;
 	}
-	.dropdown-context:after, .dropdown-context-up:after {
+	.dropdown-context:after,
+	.dropdown-context-up:after {
 		left: 134px;
 	}
-	.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+	.dropdown-menu li > a:hover,
+	.dropdown-menu li > a:focus,
+	.dropdown-submenu:hover > a {
 		color: var(--white-font);
 		text-decoration: none;
 		background-image: var(--highlight-color) !important;
@@ -429,11 +434,18 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		background-color: var(--main-color);
 		border-bottom: 1px solid var(--main-color);
 	}
-	#featureDescription, #featureEmail, #bugDescription, #bugEmail, #commentDescription, #commentEmail {
+	#featureDescription,
+	#featureEmail,
+	#bugDescription,
+	#bugEmail,
+	#commentDescription,
+	#commentEmail {
 		background: var(--main-color-dark);
 		color: var(--white-font);
 	}
-	textarea#featureDescription, textarea#bugDescription, textarea#commentDescription {
+	textarea#featureDescription,
+	textarea#bugDescription,
+	textarea#commentDescription {
 		width: 550px;
 	}
 	#footer_panel a {
