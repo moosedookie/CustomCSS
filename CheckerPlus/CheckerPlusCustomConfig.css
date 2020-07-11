@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body, .polymer2.popup, #calendarExtensionPopup * {
+  font-family: 'Ubuntu', sans-serif
+}
+
+body, #calendarExtensionPopup * {
+  font-size: 12px
+}
+
+#betaCalendar * {
+  font-size: 10px
+}
+
+[main], body, #inbox, .mail, #replyArea, .message {
+  background-color: #2F2F2F !important;
+  color: #fff !important;
+  border: 0px !important;
+  box-shadow: 0px -1px 0px #3F3F3F, 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.24) !important;
+}
+
+.paper-toolbar-0 {
+  background-color: #3F3F3F !important;
+  color: #fff !important;
+}
+
+.messageBody {
+  background-color: #d1d1d1 !important;
+  color: #000 !important;
+  filter: invert(100%)
+}
+
+.messageBody img, .messageBody [background] {
+  filter: invert(100%)
+}
+
+.share-button, .share-button-real {
+  display: none !important
+}
+
+html:not(.searchInputVisible) #inboxSection app-header-layout app-toolbar paper-icon-button:not(#menu), #topLeft, #skinWatermark, .showMoreEmails {
+  color: black;
+}
+
+#inboxSection app-header-layout::before {
+  opacity: 1;
+  background-size: cover;
+  background-image: url('https://i.ibb.co/RvCvCbw/space-flight-sky-shadow-82966-3840x2160.jpg');
+  background-position-x: 50%;
+  background-position-y: 50%
+}
+
+#inboxSection app-header-layout app-toolbar, .accountHeader {
+  filter:invert(100%)
+}
+
+</style>
