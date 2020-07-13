@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.3.9
+@version      1.4.0
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -455,5 +455,9 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 	#template > div.tabs > div.tab > div > div.editing > center > b {
 		color: var(--white-font) !important;
+	}
+	a.ca_cron.tooltipstered,
+	a.ca_credits.tooltipstered {
+		color: var(--unraid-orange)
 	}
 }
