@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.3.7
+@version      1.3.8
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -31,6 +31,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		--unraid-orange2: #f15a2c;
 		--white-font: #ffffff;
 		--dark-grey-background: #1c1b1b;
+		--unraid-grad: linear-gradient(90deg,#e22828 0,#ff8c2f) 0 0 no-repeat,linear-gradient(90deg,#e22828 0,#ff8c2f) 0 100% no-repeat,linear-gradient(0deg,#e22828 0,#e22828) 0 100% no-repeat,linear-gradient(0deg,#ff8c2f 0,#ff8c2f) 100% 100% no-repeat;
 	}
 	input[type=button],
 	input[type=reset],
@@ -39,7 +40,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	a.button {
 		border: 1px solid var(--unraid-orange);
 		background: var(--main-color-dark);
-		border-radius: 2px;
+		border-radius: 4px;
 		color: var(--unraid-orange);
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 	}
@@ -49,7 +50,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	button:hover,
 	a.button:hover {
 		border-color: var(--main-color);
-		background: var(--main-color);
+		background: var(--unraid-grad);
+		color: var(--main-color);
 	}
 	#menu {
 		border-radius: 0;
