@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         homeassistant.io Dark Theme
-@version      1.2.3
+@version      1.2.4
 @description  Change homeassistant.io to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -10,7 +10,6 @@
 @updateURL    https://moosedookie.github.io/CustomCSS/home-assistant.io/home-assistant.io.user.css
 @preprocessor default
 ==/UserStyle== */
-
 /*       __  ___                          */
 /*      /  |/  /___  ____  ________       */
 /*     / /|_/ / __ \/ __ \/ ___/ _ \      */
@@ -20,58 +19,55 @@
 /*          / / / / __ \/ __ \/ //_/ / _ \*/
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
-
 @-moz-document domain("home-assistant.io") {
-	BODY, HTML
-	{
+	BODY,
+	HTML {
 		background-color: #1F1E1E;
 		color: #F5F5F5;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		height: 100%;
 	}
-	BODY > HEADER
-	{
-		-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-moz-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-ms-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-o-box-shadow: 0 0 3px rgba(0,0,0,0.25);
+	BODY > HEADER {
+		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		background-color: #181414;
 		margin-bottom: 2em;
 	}
-	BODY > HEADER .site-title
-	{
+	BODY > HEADER .site-title {
 		color: #038FC7;
 		font-size: 1.7em;
 		font-weight: bold;
 		line-height: 2.5em;
 	}
-	BODY > FOOTER
-	{
-		-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-moz-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-ms-box-shadow: 0 0 3px rgba(0,0,0,0.25);
-		-o-box-shadow: 0 0 3px rgba(0,0,0,0.25);
+	BODY > FOOTER {
+		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-ms-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+		-o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		background-color: #181414;
 		margin-top: 3em;
 	}
-	.menu > LI > A:hover, .menu > LI > A:focus
-	{
+	.menu > LI > A:hover,
+	.menu > LI > A:focus {
 		background: #038FC7;
-		box-shadow: inset 0px 5px rgba(0,0,0,0.25);
+		box-shadow: inset 0px 5px rgba(0, 0, 0, 0.25);
 		color: #FFF;
 		padding-top: 40px;
 		padding-bottom: 24px;
 	}
-	.material-card
-	{
+	ul.sidebar-menu a.active {
+		color: #4ac6f7;
+	}
+	.material-card {
 		background-color: #272424;
 		border-radius: 2px;
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	}
-	.material-card H1
-	{
+	.material-card H1 {
 		font-family: Roboto, Noto, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		font-size: 24px;
@@ -83,8 +79,7 @@
 		text-transform: capitalize;
 		margin: 0;
 	}
-	.usp .icon I
-	{
+	.usp .icon I {
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
@@ -97,8 +92,7 @@
 		padding: 0.3em;
 		width: 1.85em;
 	}
-	.usp .title
-	{
+	.usp .title {
 		color: #F5F5F5;
 		font-size: 1.1em;
 		line-height: 3em;
@@ -106,22 +100,19 @@
 		text-align: center;
 		text-transform: capitalize;
 	}
-	.aside-module .title
-	{
+	.aside-module .title {
 		border-bottom: 1px solid #049CDB;
 		color: #C1C0C0;
 		margin: 1em 0 0.5em;
 		padding-bottom: 5px;
 	}
-	P.note
-	{
+	P.note {
 		position: relative;
 		background: #3D3F40;
 		padding: 40px 12px 6px 12px;
 		box-shadow: rgba(0, 0, 0, 0.06) 0 0 10px;
 	}
-	P.note::before
-	{
+	P.note::before {
 		font-family: "FontAwesome", sans-serif;
 		content: "?" " Note " attr(data-title);
 		background-color: #038FC7;
@@ -136,11 +127,13 @@
 		left: 0;
 		right: 0;
 	}
-	p.note.warning, div.note.warning, p.note, div.note {
-			background-color: #3D3F40;
+	p.note.warning,
+	div.note.warning,
+	p.note,
+	div.note {
+		background-color: #3D3F40;
 	}
-	#components-page .component-search INPUT
-	{
+	#components-page .component-search INPUT {
 		width: 100%;
 		padding: 10px;
 		background-color: #3D3F40;
@@ -148,8 +141,7 @@
 		border: 1px solid;
 		border-color: #3D3F40;
 	}
-	#components-page .filter-button-group .btn
-	{
+	#components-page .filter-button-group .btn {
 		display: block;
 		background: 0;
 		color: #F5F5F5;
@@ -157,12 +149,16 @@
 		text-shadow: none;
 		padding: 2px;
 	}
-	ARTICLE.post > TABLE, ARTICLE.post > .entry-content > TABLE, ARTICLE.page > TABLE, ARTICLE.page > .entry-content > TABLE, ARTICLE.listing > TABLE, ARTICLE.listing > .entry-content > TABLE, table td
-	{
+	ARTICLE.post > TABLE,
+	ARTICLE.post > .entry-content > TABLE,
+	ARTICLE.page > TABLE,
+	ARTICLE.page > .entry-content > TABLE,
+	ARTICLE.listing > TABLE,
+	ARTICLE.listing > .entry-content > TABLE,
+	table td {
 		background-color: #272424;
 	}
-	.search-container
-	{
+	.search-container {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -172,9 +168,22 @@
 		padding-top: 19px;
 		padding-right: 15%;
 	}
+	div.config-vars .config-vars-label-name,
+	div.config-vars .config-vars-description p,
+	div.config-vars .config-vars-default {
+		color: #FFFFFF;
+	}
+	div.config-vars .config-vars-type {
+		color: #c2bfbf
+	}
+	div.config-vars .config-vars-required .true {
+		color: #FF0000
+	}
+	div.config-vars .config-vars-required {
+		color: #ffa500
+	}
 	/*Code Highlights*/
-	CODE.highlighter-rouge
-	{
+	CODE.highlighter-rouge {
 		background: #272424;
 		font-size: 0.8em;
 		line-height: 1.5em;
@@ -185,8 +194,7 @@
 		border-radius: 0.4em;
 		padding: 0 0.3em;
 	}
-	PRE.highlight
-	{
+	PRE.highlight {
 		background-color: #272424;
 		border: 1px solid #CCC;
 		font-family: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
@@ -194,274 +202,212 @@
 		padding: 1em 0px 1em 1em;
 		font-size: 15px;
 	}
-	.highlight .hll
-	{
+	.highlight .hll {
 		background-color: #FFC;
 	}
-	.highlight .c
-	{
+	.highlight .c {
 		color: #999988;
 		font-style: italic;
 	}
-	.highlight .err
-	{
+	.highlight .err {
 		color: #A61717;
 		background-color: #E3D2D2;
 	}
-	.highlight .k
-	{
+	.highlight .k {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .o
-	{
+	.highlight .o {
 		color: #36FB36;
 		font-weight: bold;
 	}
-	.highlight .cm
-	{
+	.highlight .cm {
 		color: #999988;
 		font-style: italic;
 	}
-	.highlight .cp
-	{
+	.highlight .cp {
 		color: #999999;
 		font-weight: bold;
 		font-style: italic;
 	}
-	.highlight .c1
-	{
+	.highlight .c1 {
 		color: #999988;
 		font-style: italic;
 	}
-	.highlight .cs
-	{
+	.highlight .cs {
 		color: #999999;
 		font-weight: bold;
 		font-style: italic;
 	}
-	.highlight .gd
-	{
+	.highlight .gd {
 		color: #000000;
 		background-color: #FDD;
 	}
-	.highlight .ge
-	{
+	.highlight .ge {
 		color: #FFF;
 		font-style: italic;
 	}
-	.highlight .gr
-	{
+	.highlight .gr {
 		color: #A00;
 	}
-	.highlight .gh
-	{
+	.highlight .gh {
 		color: #999;
 	}
-	.highlight .gi
-	{
+	.highlight .gi {
 		color: #000000;
 		background-color: #DFD;
 	}
-	.highlight .go
-	{
+	.highlight .go {
 		color: #888;
 	}
-	.highlight .gp
-	{
+	.highlight .gp {
 		color: #555;
 	}
-	.highlight .gs
-	{
+	.highlight .gs {
 		font-weight: bold;
 	}
-	.highlight .gu
-	{
+	.highlight .gu {
 		color: #AAA;
 	}
-	.highlight .gt
-	{
+	.highlight .gt {
 		color: #A00;
 	}
-	.highlight .kc
-	{
+	.highlight .kc {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .kd
-	{
+	.highlight .kd {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .kn
-	{
+	.highlight .kn {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .kp
-	{
+	.highlight .kp {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .kr
-	{
+	.highlight .kr {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .kt
-	{
+	.highlight .kt {
 		color: #445588;
 		font-weight: bold;
 	}
-	.highlight .m
-	{
+	.highlight .m {
 		color: #099;
 	}
-	.highlight .s
-	{
+	.highlight .s {
 		color: #D01040;
 	}
-	.highlight .na
-	{
+	.highlight .na {
 		color: #038FC7;
 	}
-	.highlight .nb
-	{
+	.highlight .nb {
 		color: #0086B3;
 	}
-	.highlight .nc
-	{
+	.highlight .nc {
 		color: #445588;
 		font-weight: bold;
 	}
-	.highlight .no
-	{
+	.highlight .no {
 		color: teal;
 	}
-	.highlight .nd
-	{
+	.highlight .nd {
 		color: #3C5D5D;
 		font-weight: bold;
 	}
-	.highlight .ni
-	{
+	.highlight .ni {
 		color: purple;
 	}
-	.highlight .ne
-	{
+	.highlight .ne {
 		color: #990000;
 		font-weight: bold;
 	}
-	.highlight .nf
-	{
+	.highlight .nf {
 		color: #990000;
 		font-weight: bold;
 	}
-	.highlight .nl
-	{
+	.highlight .nl {
 		color: #990000;
 		font-weight: bold;
 	}
-	.highlight .nn
-	{
+	.highlight .nn {
 		color: #555;
 	}
-	.highlight .nt
-	{
+	.highlight .nt {
 		color: #02fffb;
 	}
-	.highlight .nv
-	{
+	.highlight .nv {
 		color: teal;
 	}
-	.highlight .ow
-	{
+	.highlight .ow {
 		color: #FFF;
 		font-weight: bold;
 	}
-	.highlight .w
-	{
+	.highlight .w {
 		color: #BBB;
 	}
-	.highlight .mf
-	{
+	.highlight .mf {
 		color: #099;
 	}
-	.highlight .mh
-	{
+	.highlight .mh {
 		color: #099;
 	}
-	.highlight .mi
-	{
+	.highlight .mi {
 		color: #099;
 	}
-	.highlight .mo
-	{
+	.highlight .mo {
 		color: #099;
 	}
-	.highlight .sb
-	{
+	.highlight .sb {
 		color: #D01040;
 	}
-	.highlight .sc
-	{
+	.highlight .sc {
 		color: #D01040;
 	}
-	.highlight .sd
-	{
+	.highlight .sd {
 		color: #D01040;
 	}
-	.highlight .s2
-	{
+	.highlight .s2 {
 		color: #D01040;
 	}
-	.highlight .se
-	{
+	.highlight .se {
 		color: #D01040;
 	}
-	.highlight .sh
-	{
+	.highlight .sh {
 		color: #D01040;
 	}
-	.highlight .si
-	{
+	.highlight .si {
 		color: #D01040;
 	}
-	.highlight .sx
-	{
+	.highlight .sx {
 		color: #D01040;
 	}
-	.highlight .sr
-	{
+	.highlight .sr {
 		color: #009926;
 	}
-	.highlight .s1
-	{
+	.highlight .s1 {
 		color: #D01040;
 	}
-	.highlight .ss
-	{
+	.highlight .ss {
 		color: #990073;
 	}
-	.highlight .bp
-	{
+	.highlight .bp {
 		color: #999;
 	}
-	.highlight .vc
-	{
+	.highlight .vc {
 		color: teal;
 	}
-	.highlight .vg
-	{
+	.highlight .vg {
 		color: teal;
 	}
-	.highlight .vi
-	{
+	.highlight .vi {
 		color: teal;
 	}
-	.highlight .il
-	{
+	.highlight .il {
 		color: #099;
 	}
-
-	}
+}
