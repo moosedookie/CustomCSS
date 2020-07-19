@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         homeassistant.io Dark Theme
-@version      1.2.4
+@version      1.2.5
 @description  Change homeassistant.io to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -50,6 +50,9 @@
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 		background-color: #181414;
 		margin-top: 3em;
+	}
+	a:visited {
+		color: #038FC7;
 	}
 	.menu > LI > A:hover,
 	.menu > LI > A:focus {
@@ -133,6 +136,9 @@
 	div.note {
 		background-color: #3D3F40;
 	}
+	p.note.warning::before, div.note.warning::before {
+		background-color: #bb0d0d;
+}
 	#components-page .component-search INPUT {
 		width: 100%;
 		padding: 10px;
