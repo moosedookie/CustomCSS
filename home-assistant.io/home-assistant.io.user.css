@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         homeassistant.io Dark Theme
-@version      1.2.5
+@version      1.2.6
 @description  Change homeassistant.io to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -187,6 +187,9 @@
 	}
 	div.config-vars .config-vars-required {
 		color: #ffa500
+	}
+	#components-page .component-search INPUT {
+		color: white;
 	}
 	/*Code Highlights*/
 	CODE.highlighter-rouge {
