@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.4.0
+version      1.4.1
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -33,6 +33,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		--dark-grey-background: #1c1b1b;
 		--unraid-grad: linear-gradient(90deg, #e22828 0, #ff8c2f) 0 0 no-repeat, linear-gradient(90deg, #e22828 0, #ff8c2f) 0 100% no-repeat, linear-gradient(0deg, #e22828 0, #e22828) 0 100% no-repeat, linear-gradient(0deg, #ff8c2f 0, #ff8c2f) 100% 100% no-repeat;
 	}
+
+	/* Buttons */
 	input[type=button],
 	input[type=reset],
 	input[type=submit],
@@ -53,6 +55,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		background: var(--unraid-grad);
 		color: var(--main-color);
 	}
+
+	/* Header and menu bar */
 	#menu {
 		border-radius: 0;
 		background: var(--main-color);
@@ -69,8 +73,9 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	#nav-block #nav-item {
 		border-right: 1px solid var(--main-color);
 	}
-
 	#header .block {
+		background-color: rgba(0, 0, 0, .46);
+		color: var(--white-font);
 		border-radius: 4px;
 	}
 	#nav-block #nav-item:hover {
@@ -97,6 +102,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	#template {
 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
 	}
+
+	/* 'Main' tab */
 	#title,
 	table.share_status thead tr:first-child td,
 	table.disk_status thead tr:first-child td,
@@ -108,6 +115,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--white-font);
 		border: 1px;
 	}
+	/* Switches */
 	.switch-button-label {
 		color: var(--white-font) !important;
 	}
@@ -121,10 +129,14 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		background: #F1F1F1;
 		border: 1px solid #F1F1F1;
 	}
-	#header .block {
-		background-color: rgba(0, 0, 0, .46);
-		color: var(--white-font);
+	.status a {
+		color: var(--unraid-orange);
 	}
+	i.control {
+		color: var(--unraid-orange2)
+	}
+
+	/* 'Dashboard' tab */
 	.stopped {
 		color: var(--stopped-color);
 	}
@@ -132,18 +144,18 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 		color: var(--started-color);
 	}
 	.update {
-		color: var(--highlight-color);
+		color: var(--unraid-orange);
 	}
 	.blue-text {
 		color: var(--highlight-color);
 	}
-	.back_to_top {
-		color: var(--unraid-orange2);
+	span.blue-text {
+		color: var(--unraid-orange)
 	}
-	select {
-		border-radius: 0;
-		box-shadow: none;
-		color: var(--white-font);
+
+	/* 'Docker' tab */
+	#docker_list > tr > td.updatecolumn > a > span {
+		color: var(--unraid-orange)
 	}
 	#smart-parity img,
 	#smart-disk1 img,
@@ -186,11 +198,20 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	#title span img {
 		filter: saturate(0);
 	}
-	.status a {
+
+	/* Dropdowns */
+	select {
+		border-radius: 4px;
+		box-shadow: 1px 1px var(--unraid-orange);
 		color: var(--white-font);
+		background-color: var(--main-color-dark);
+	}
+	.ui-dropdownchecklist-text, div.ui-dropdownchecklist-item.ui-state-default  {
+		color: var(--white-font);
+		background-color: var(--main-color-dark);
 	}
 
-	/* USERS Tab */
+	/* 'Users' Tab */
 	div.user-list {
 		border-radius: 0px;
 		border: none;
@@ -235,9 +256,6 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	}
 	table.tablesorter.shift {
 		margin-top: -23px;
-	}
-	.tablesorter .fa {
-		color: var(--white-font);
 	}
 	.switch-button-background.checked {
 		background: var(--main-color) !important;
@@ -459,5 +477,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.unraid.net") {
 	a.ca_cron.tooltipstered,
 	a.ca_credits.tooltipstered {
 		color: var(--unraid-orange)
+	}
+	.back_to_top {
+		color: var(--unraid-orange2);
 	}
 }
