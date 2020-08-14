@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Dark Stylus UI
-@version      1.0.1
+@version      1.0.2
 @description  Change Stylus UI to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -21,7 +21,10 @@
 /*        /_____/\____/\____/_/|_/_/\___/ */
 @-moz-document regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html.*"),
 regexp("moz-extension://.*(/edit.html).*"),
-regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*") {
+regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*"),
+regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/install-usercss.html.*"),
+regexp("moz-extension://.*(/install-usercss.html).*"),
+regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/install-usercss.html.*") {
   ::-webkit-scrollbar {
     width: .8rem;
     height: .8rem;
@@ -195,6 +198,19 @@ regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*") {
     background-color: #2c243c;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='#000000' fill-opacity='.3' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     border-right: 1px solid #282135;
+  }
+
+  #header,
+  .warnings {
+    color: #d9d9d9;
+  }
+
+  #header a {
+    color: #ffffff;
+  }
+
+  #header a:hover {
+    color: #666666;
   }
 
   .resize-grip {
@@ -636,7 +652,7 @@ regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/manage.html.*") {
   #message-box.danger #message-box-contents {
     background: #1f182a;
     color: #d9d9d9;
-    border-bottom: 1px solid #3b364a
+    border-bottom: 1px solid #3b364a;
   }
 
   #message-box-buttons {
