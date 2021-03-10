@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         homeassistant.io Dark Theme
-@version      1.2.7
+@version      1.2.8
 @description  Change homeassistant.io to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -72,6 +72,10 @@
 
 	ul.sidebar-menu a.active {
 		color: #4ac6f7;
+	}
+
+	ul.menu li ul {
+		background-color: #181414;
 	}
 
 	.material-card {
