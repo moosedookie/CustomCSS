@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         unRAID Dark Theme
-@version      1.4.5
+@version      1.4.6
 @description  Change unRAID to Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -31,24 +31,28 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         --unraid-orange2: #f15a2c;
         --white-font: #ffffff;
         --dark-grey-background: #1c1b1b;
-        --unraid-grad: linear-gradient(90deg, #e22828 0, #ff8c2f) 0 0 no-repeat, linear-gradient(90deg, #e22828 0, #ff8c2f) 0 100% no-repeat, linear-gradient(0deg, #e22828 0, #e22828) 0 100% no-repeat, linear-gradient(0deg, #ff8c2f 0, #ff8c2f) 100% 100% no-repeat;
+        --unraid-grad: linear-gradient(90deg, #e22828 0, #ff8c2f) 0 0 no-repeat,
+            linear-gradient(90deg, #e22828 0, #ff8c2f) 0 100% no-repeat,
+            linear-gradient(0deg, #e22828 0, #e22828) 0 100% no-repeat,
+            linear-gradient(0deg, #ff8c2f 0, #ff8c2f) 100% 100% no-repeat;
     }
 
     /* Buttons */
-    input[type=button],
-    input[type=reset],
-    input[type=submit],
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
     button,
     a.button {
         border: 1px solid var(--unraid-orange);
         background: var(--main-color-dark);
         border-radius: 4px;
         color: var(--unraid-orange);
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+            0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
     }
-    input:hover[type=button],
-    input:hover[type=reset],
-    input:hover[type=submit],
+    input:hover[type="button"],
+    input:hover[type="reset"],
+    input:hover[type="submit"],
     button:hover,
     a.button:hover {
         border-color: var(--main-color);
@@ -119,7 +123,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         border-right: 1px solid var(--main-color);
     }
     #header .block {
-        background-color: rgba(0, 0, 0, .46);
+        background-color: rgba(0, 0, 0, 0.46);
         color: var(--white-font);
         border-radius: 4px;
     }
@@ -145,7 +149,8 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         border-right: solid medium var(--unraid-orange2);
     }
     #template {
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+            0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
     }
 
     /* 'Main' tab */
@@ -171,14 +176,14 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
     }
     .switch-button-button {
         border-radius: 10px;
-        background: #F1F1F1;
-        border: 1px solid #F1F1F1;
+        background: #f1f1f1;
+        border: 1px solid #f1f1f1;
     }
     .status a {
         color: var(--unraid-orange);
     }
     i.control {
-        color: var(--unraid-orange2)
+        color: var(--unraid-orange2);
     }
 
     /* 'Dashboard' tab */
@@ -195,12 +200,12 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         color: var(--highlight-color);
     }
     span.blue-text {
-        color: var(--unraid-orange)
+        color: var(--unraid-orange);
     }
 
     /* 'Docker' tab */
     td.updatecolumn > a > span {
-        color: var(--unraid-orange)
+        color: var(--unraid-orange);
     }
     #smart-parity img,
     #smart-disk1 img,
@@ -262,29 +267,30 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         border-radius: 0px;
         border: none;
         background: var(--main-color);
-        box-shadow: 0 2px 6px -9px #091de7e3, 0 5px 33px 0 #2d2d3036, 0 1px 55px -1px #091de7e3;
+        box-shadow: 0 2px 6px -9px #091de7e3, 0 5px 33px 0 #2d2d3036,
+            0 1px 55px -1px #091de7e3;
     }
     div.user-list a {
         color: var(--unraid-orange);
     }
     div.user-list img {
-        filter: rgba(237, 18, 18, .88);
+        filter: rgba(237, 18, 18, 0.88);
         border-radius: 22;
     }
-    div.tab [type=radio]:checked + label {
+    div.tab [type="radio"]:checked + label {
         color: var(--unraid-orange);
         border-radius: 8px;
         border: none;
         background: var(--main-color-dark);
     }
-    div.tab [type=radio] + label {
+    div.tab [type="radio"] + label {
         color: var(--unraid-orange);
         border-radius: 8px;
         border: none;
         background: var(--main-color);
         opacity: 1;
     }
-    div.tab [type=radio] + label:hover {
+    div.tab [type="radio"] + label:hover {
         background: var(--main-color-dark);
         color: var(--white-font);
     }
@@ -382,7 +388,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
     #sb-body,
     #sb-loading-inner {
         background: var(--dark-grey-background);
-        color: var(--white-font)
+        color: var(--white-font);
     }
     #sb-title-inner,
     .ui-dialog-titlebar,
@@ -434,7 +440,7 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         border: solid 1px var(--unraid-orange);
     }
     .swal-icon {
-        border-color: var(--unraid-orange)
+        border-color: var(--unraid-orange);
     }
     .swal-icon--info:after,
     .swal-icon--info:before {
@@ -470,8 +476,15 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
     .sweet-overlay {
         background-color: rgb(0, 0, 0, 0.46) !important;
     }
-    body > div.sweet-alert.showSweetAlert.visible > p > table > tbody > tr > td > a {
-        color: var(--white-font)
+    body
+        > div.sweet-alert.showSweetAlert.visible
+        > p
+        > table
+        > tbody
+        > tr
+        > td
+        > a {
+        color: var(--white-font);
     }
     .dropdown-menu {
         background-color: var(--dark-grey-background);
@@ -520,14 +533,14 @@ domain("f4fa1b36bd89723f2563ffd0dc097c1d47c78086.myunraid.net") {
         width: 550px;
     }
     #footer_panel a {
-        color: var(--unraid-orange)
+        color: var(--unraid-orange);
     }
     #template > div.tabs > div.tab > div > div.editing > center > b {
         color: var(--white-font) !important;
     }
     a.ca_cron.tooltipstered,
     a.ca_credits.tooltipstered {
-        color: var(--unraid-orange)
+        color: var(--unraid-orange);
     }
     .back_to_top {
         color: var(--unraid-orange2);
