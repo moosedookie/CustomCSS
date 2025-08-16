@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Nginx Proxy Manager
-@version      1.0.2
+@version      1.0.3
 @description  Nginx Proxy Manager Dark Theme
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -19,7 +19,7 @@
 /*          / / / / __ \/ __ \/ //_/ / _ \*/
 /*         / /_/ / /_/ / /_/ / ,< / /  __/*/
 /*        /_____/\____/\____/_/|_/_/\___/ */
-@-moz-document url-prefix("http://192.168.33.134:7818/") {
+@-moz-document url-prefix("http://192.168.33.134:7818/"), url-prefix("https://192.168.33.134:7818/") {
 	:root {
 		--textColor: #b3b3b3;
 		--backColor: #111721;
