@@ -41,6 +41,7 @@ This repo has various dark themes for multiple websites. They are built using [U
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/github-icon-color/github-icon-color.user.css)
 
 **Github Fixed Header**
+
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-%233daee9?style=for-the-badge&color=blueviolet)](https://moosedookie.github.io/CustomCSS/GitHubFixedHeader/githubfixedheader.user.css)
 
 **Dark Goodreads Theme**
