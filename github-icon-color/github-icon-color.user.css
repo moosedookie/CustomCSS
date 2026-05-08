@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub Icon Color
-@version      1.0.0
+@version      1.0.1
 @description  Change GitHub icon color to your choosing
 @namespace    https://github.com/moosedookie
 @author       moosedookie
@@ -25,7 +25,7 @@
 
 
 @-moz-document regexp("^https?://((gist|guides|help|raw|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
-	svg.octicon.octicon-mark-github.v-align-middle {
+	svg.octicon.octicon-mark-github {
 		color: /*[[icon]]*/;
 	}
 }
